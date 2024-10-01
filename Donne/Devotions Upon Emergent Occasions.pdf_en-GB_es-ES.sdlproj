@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="64294f9d-b2b0-4355-b827-53498ba43f87" SettingsBundleGuid="528fd9b0-56b8-4f06-864a-393b41fb39a8" Version="4.0.0.0" Owner="UNHAPPYMANIFOLD\unhap" ProjectTemplateGuid="10004f3b-4acf-4425-a3e3-38d3b3514276" ReferenceProjectGuid="00000000-0000-0000-0000-000000000000">
+  <LanguageDirections>
+    <LanguageDirection Guid="cac1b5c9-d227-43fd-bf3e-24db194eb248" SettingsBundleGuid="d51d0fd0-2739-46ae-a635-6312a6fc87a3" TargetLanguageCode="es-ES" SourceLanguageCode="en-GB">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="false" StopSearchingWhenResultsFound="false" />
+    </LanguageDirection>
+  </LanguageDirections>
+  <TermbaseConfiguration>
+    <RecognitionOptions>
+      <ShowWithNoAvailableTranslation>false</ShowWithNoAvailableTranslation>
+      <MinimumMatchValue>70</MinimumMatchValue>
+      <SearchDepth>200</SearchDepth>
+      <SearchOrder>Parallel</SearchOrder>
+    </RecognitionOptions>
+  </TermbaseConfiguration>
+  <SettingsBundles>
+    <SettingsBundle Guid="528fd9b0-56b8-4f06-864a-393b41fb39a8">
+      <SettingsBundle>
+        <SettingsGroup Id="TerminologyProviderSettings">
+          <Setting Id="TermbasesOrder">
+            <ArrayOfstring xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            </ArrayOfstring>
+          </Setting>
+          <Setting Id="Termbases">
+            <ArrayOfTermbase xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi.Implementation.Xml">
+            </ArrayOfTermbase>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="FileViewServiceSettings">
+          <Setting Id="SelectedTargetLanguageCode">es-ES</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="Plugin.AnyTM.SourceLanguages">
+          <Setting Id="HasMixedSourceLanguages">False</Setting>
+          <Setting Id="AutoDetectSourceLanguage">True</Setting>
+          <Setting Id="SourceLanguages">en-GB</Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+    <SettingsBundle Guid="a618b0b4-e466-403f-ab5f-204e9f979cc9">
+      <SettingsBundle>
+        <SettingsGroup Id="IgnoredMessagesSettings">
+          <Setting Id="IgnoredMessagesData">
+            <IgnoredMessagesData xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi">
+              <IgnoredMessageIds>
+              </IgnoredMessageIds>
+              <IgnoredMessageTypes xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+              </IgnoredMessageTypes>
+            </IgnoredMessagesData>
+          </Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+  </SettingsBundles>
+  <AnalysisBands>
+    <AnalysisBand MinimumMatchValue="50" />
+    <AnalysisBand MinimumMatchValue="75" />
+    <AnalysisBand MinimumMatchValue="85" />
+    <AnalysisBand MinimumMatchValue="95" />
+  </AnalysisBands>
+  <ManualTaskTemplates />
+  <Users>
+    <User UserId="UNHAPPYMANIFOLD\unhap" FullName="Lucas Costa" Description="" Email="unhappy.manifold@gmail.com" PhoneNumber="" EmailType="Smtp" />
+  </Users>
+  <CascadeItem OverrideParent="true" StopSearchingWhenResultsFound="false">
+    <CascadeEntryItem PerformConcordanceSearch="true" Penalty="0" PerformUpdate="true" PerformNormalSearch="true">
+      <MainTranslationProviderItem Uri="sdltm.file:///C:/Users/unhap/OneDrive/Documentos/Studio 2021/Translation Memories/Generic TM.sdltm" Enabled="true" />
+    </CascadeEntryItem>
+  </CascadeItem>
+  <GeneralProjectInfo IsInPlace="true" IsCloudBased="false" IsImported="false" Name="Devotions Upon Emergent Occasions.pdf_en-GB_es-ES" CreatedAt="2024-09-30T23:03:01.7344018Z" StartedAt="2024-09-30T23:03:01.7344018Z" Status="Started" CreatedBy="UNHAPPYMANIFOLD\unhap" />
+  <SourceLanguageCode>en-GB</SourceLanguageCode>
+  <ProjectFiles>
+    <ProjectFile Guid="60ce33ea-15c8-4f92-ab24-126c367e7867" Path="" Role="Translatable" Name="Devotions Upon Emergent Occasions.pdf" ParentProjectFileGuid="00000000-0000-0000-0000-000000000000" FilterDefinitionId="PDF v 3.0.0.0">
+      <SpecificTargetLanguages />
+      <LanguageFiles>
+        <LanguageFile Guid="60f8b21d-9353-43f9-895b-55ae82252d2a" SettingsBundleGuid="1724f957-f0af-4f0e-be8b-8d3033130c2d" LanguageCode="en-GB">
+          <FileVersions>
+            <FileVersion Guid="f938784a-33c5-400f-a444-f43c10031ecf" VersionNumber="1" Size="259848" FileName="Devotions Upon Emergent Occasions.pdf" PhysicalPath="Devotions Upon Emergent Occasions.pdf" CreatedBy="UNHAPPYMANIFOLD\unhap" CreatedAt="2024-09-30T23:03:01.7344018Z" FileTimeStamp="2024-09-21T01:55:44.2201015Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountStatus="None" AnalysisStatus="None">
+            <Total Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Repetitions Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ChildFiles />
+        </LanguageFile>
+        <LanguageFile Guid="30e4c363-3a56-4db1-a3a4-fcdc2c7c5d11" SettingsBundleGuid="a618b0b4-e466-403f-ab5f-204e9f979cc9" LanguageCode="es-ES">
+          <FileVersions>
+            <FileVersion Guid="9981da84-7d0f-4b75-bb49-fbd86d5ff1fd" VersionNumber="2" Size="259848" FileName="Devotions Upon Emergent Occasions.pdf" PhysicalPath="Devotions Upon Emergent Occasions.pdf" CreatedBy="UNHAPPYMANIFOLD\unhap" CreatedAt="2024-09-30T23:03:01.7445138Z" FileTimeStamp="2024-09-21T01:55:44.2201015Z" IsAutoUpload="false" />
+            <FileVersion Guid="cf1d4288-772f-47d3-b071-3346a3651325" VersionNumber="3" Size="2673306" FileName="Devotions Upon Emergent Occasions.pdf_en-GB_es-ES.sdlxliff" PhysicalPath="Devotions Upon Emergent Occasions.pdf_en-GB_es-ES.sdlxliff" Comment="" CreatedBy="UNHAPPYMANIFOLD\unhap" CreatedAt="2024-09-30T23:14:12.3911888Z" FileTimeStamp="2024-09-30T23:14:12.357575Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountStatus="None" AnalysisStatus="None">
+            <Total Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Repetitions Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewBaseline Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <NewLearnings Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ConfirmationStatistics FileTimeStamp="2024-10-01T01:44:56.9703894Z" Status="Complete">
+            <Unspecified Words="49238" Characters="212531" Segments="2773" Placeables="3110" Tags="1769" />
+            <Draft Words="176" Characters="955" Segments="57" Placeables="7" Tags="6" />
+            <Translated Words="1423" Characters="6722" Segments="118" Placeables="50" Tags="32" />
+            <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </ConfirmationStatistics>
+          <ChildFiles />
+        </LanguageFile>
+      </LanguageFiles>
+      <PreviousBilingualFiles />
+    </ProjectFile>
+  </ProjectFiles>
+  <Tasks />
+  <PackageOperations>
+    <ProjectPackageCreationOperations />
+    <ProjectPackageImportOperations />
+    <ReturnPackageCreationOperations />
+    <ReturnPackageImportOperations />
+  </PackageOperations>
+</Project>
